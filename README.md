@@ -41,3 +41,5 @@ You must create a file `credentials.py` where github user credentials are stored
 user="githubUsername"
 password="githubPassword"
 ```
+
+**NOTE** This tool initializes the repository as private, to turn it public it should be done in github (for now)
