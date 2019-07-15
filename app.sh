@@ -1,6 +1,6 @@
 #!/bin/bash
 repo=${1}
-dir="/home/doctor/workspace/flutter/"
+dir="/home/"${USER}"/workspace/flutter/"
 
 source ${dir}"automaticGit/credentials.py"
 
