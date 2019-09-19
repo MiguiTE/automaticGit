@@ -3,8 +3,8 @@
 # Function that graps the creation of a flutter project and git repository
 # it starts visual studio code
 create () {
-    #flutter create ${dir}${repo} # create flutter project
-    mkdir ${dir}${repo}
+    flutter create ${dir}${repo} # create flutter project
+    
     python ${dir}"automaticGit/app.py" ${command} ${repo} # create git repository
 
     # sincronize git repository
